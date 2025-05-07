@@ -238,7 +238,7 @@ footer p{
 @media (max-width: 600px) {
   #sobre p {
     font-size: 1rem; 
-    line-height: 1.4;
+    line-height: 1;
   }
 
   #sobre h1 {
@@ -246,10 +246,10 @@ footer p{
   }
 
   .sobre-card {
-    margin-bottom: 0.2rem; 
+    margin-bottom: 0rem; 
   }
 
   #last {
-    margin: 5rem;
+    margin: 2rem;
   }
 }
