@@ -1,0 +1,126 @@
+:root {
+    --ivory-mist: #fdf9f3;
+    --soft-beige: #eaddcb;
+    --golden-veil: #f6e7c1;
+    --champagne-glow: #f0e1d2;
+    --moonlight-silver: #e6e9ed;
+    --linen-gold: #d5bfa3;
+    --text-color: #5f4c3c;
+}
+
+header a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: var(--ivory-mist);
+    color: var(--text-color);
+    text-align: center;
+    padding: 2rem;
+    margin: 0;
+}
+
+#gameArea {
+    position: relative;
+    flex-grow: 1;
+    width: 90%;
+    max-width: 1200px;
+    height: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 6px solid #e0e4e8;
+    border-radius: 16px;
+    box-sizing: border-box;
+    background-color: var(--linen-gold);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.star {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url('star.png') no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.gradient-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: transparent;
+    background: linear-gradient(90deg, #e0e4e8, #f7d9a8, #f3cdb8, #e0e4e8);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-animation 3s infinite;
+}
+
+#pontuacao {
+    margin-bottom: 2vw;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.btn {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.primary {
+    background-color: #f7d9a8;
+    color: #5f4c3c;
+}
+
+.btn:hover {
+    background-color: #f3cdb8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    color: var(--text-color);
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--linen-gold);
+    margin-left: 1rem;
+    white-space: nowrap;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #5f4c3c;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
