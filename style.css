@@ -234,3 +234,22 @@ footer p{
 #last{
   margin: 10rem;
 }
+
+@media (max-width: 600px) {
+  #sobre p {
+    font-size: 1rem; 
+    line-height: 1.4;
+  }
+
+  #sobre h1 {
+    font-size: 1.5rem; 
+  }
+
+  .sobre-card {
+    margin-bottom: 0.5rem; 
+  }
+
+  #last {
+    margin: 5rem;
+  }
+}
