@@ -1,74 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Saturn</title>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'DM Sans', sans-serif;
-      background: linear-gradient(135deg, #1a1a2e, #2f2f4f);
-      color: #f4f4f4;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      text-align: center;
-    }
-    h1 {
-      font-size: 3rem;
-      color: #ffbbf1;
-      margin-bottom: 0.5rem;
-    }
-    h2 {
-      font-size: 1.4rem;
-      color: #c2b3ff;
-      margin-bottom: 2rem;
-    }
-    .buttons {
-      display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    a.button {
-      background: #ffbbf1;
-      color: #1a1a2e;
-      text-decoration: none;
-      padding: 0.8rem 1.4rem;
-      border-radius: 25px;
-      font-weight: 700;
-      transition: 0.3s;
-    }
-    a.button:hover {
-      background: #f38fdd;
-    }
-    footer {
-      margin-top: 3rem;
-      font-size: 0.9rem;
-      color: #aaa;
-    }
-    .sparkle {
-      font-size: 1.4rem;
-      margin: 0 0.2rem;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iamsaturn.dev</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
+  <header>
+    <h1>iamsaturn.dev</h1>
+    <nav>
+      <a href="https://github.com/iamsaturn/">GitHub</a>
+      <a href="mailto:arthusjonathan@gmail.com">E-mail</a>
+    </nav>
+  </header>
+
   <main>
-    <h1>✨ wellcome to saturn ✨</h1>
-    <h2> Just chillin rn 🪐</h2>
-    <div class="buttons">
-      <a class="button" href="https://github.com/iamsaturn" target="_blank">Ver projetos</a>
-      <a class="button" href="mailto:hi@iamsaturn.dev">Entrar em contato</a>
+    <div class="planet-box">
+      <img id="logo" src="/images/saturn.png" alt="Logo de Saturno">
+    </div>
+
+    <div id="home" class="secao visivel">
+      <h2>Olá, mundo!</h2>
+      <p>Bem-vindo ao meu website!</p>
+      <div class="buttons">
+        <a onclick="mostrarSobre()" class="btn primary">About</a>
+        <a href="/Game/game2.html" class="btn secondary">Game</a>
+      </div>
+    </div>
+
+    
+
+    
+    <div id="sobre" class="secao escondida">
+      <h1>Sobre mim</h1>
+      <div class="sobre-card">
+        <p>Meu nome é <span class="nome-destaque">Jonathan Ribeiro</span>, sou estudante de Engenharia de Software e Relações Internacionais.</p>
+      </div>
+      <div class="sobre-card">
+        <p>Tenho um forte interesse em IA e aprendizado de máquina.</p>
+      </div>
+      <div class="sobre-card">
+        <p>Fique à vontade para conectar-se comigo!</p>
+      </div>
+      <button onclick="mostrarHome()" class="btn primary">Voltar</button>
+      <div id="last"></div>
     </div>
   </main>
+
   <footer>
-    Feito por Saturn — 2025
+    <p class="footer-destaque">💫 HTML - CSS - JS</p>
   </footer>
 </body>
 </html>
