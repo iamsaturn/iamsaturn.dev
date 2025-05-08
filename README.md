@@ -17,7 +17,20 @@ Este site foi criado com foco em animações suaves, uma identidade visual paste
 
 ---
 
-## 🕹️ Sobre o Joguinho: "Clique na Estrela"
+## 📱 Responsividade
+
+O site foi desenvolvido com atenção à responsividade. A interface se adapta a diferentes tamanhos de tela, mantendo a estética etérea e funcional.
+
+### 💻 Desktop:
+![image1](https://github.com/user-attachments/assets/76224af6-a9d3-4c20-85a2-c9d22d1d4abe)
+
+
+### 📱 Mobile:
+![image](https://github.com/user-attachments/assets/9fd142c5-4fd2-42c2-8b1d-b8a36a38aba6)
+
+---
+
+## 🕹️ Sobre o Joguinho: "Clique na estrela"
 
 O mini game está disponível na segunda página do site. O objetivo é:
 
@@ -31,19 +44,6 @@ O mini game está disponível na segunda página do site. O objetivo é:
 
 📸 Preview:
 ![preview-game gifFeitocomoClipchamp-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/423b97ee-2c48-47c4-84be-e3da17198278)
-
----
-
-## 📱 Responsividade
-
-O site foi desenvolvido com atenção à responsividade. A interface se adapta a diferentes tamanhos de tela, mantendo a estética etérea e funcional.
-
-### 💻 Desktop:
-![image1](https://github.com/user-attachments/assets/76224af6-a9d3-4c20-85a2-c9d22d1d4abe)
-
-
-### 📱 Mobile:
-![image](https://github.com/user-attachments/assets/9fd142c5-4fd2-42c2-8b1d-b8a36a38aba6)
 
 ---
 
