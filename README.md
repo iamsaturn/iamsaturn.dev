@@ -39,7 +39,8 @@ O mini game está disponível na segunda página do site. O objetivo é:
 O site foi desenvolvido com atenção à responsividade. A interface se adapta a diferentes tamanhos de tela, mantendo a estética etérea e funcional.
 
 ### 💻 Desktop:
-![desktop preview](./desktop-preview.png](https://github.com/iamsaturn/iamsaturn.dev/blob/main/desktop-preview.png?raw=true)
+![desktop preview](https://raw.githubusercontent.com/iamsaturn/iamsaturn.dev/main/desktop-preview.png)
+
 
 ### 📱 Mobile:
 ![mobile preview](./mobile-preview.png)
