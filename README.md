@@ -43,7 +43,7 @@ O site foi desenvolvido com atenção à responsividade. A interface se adapta a
 
 
 ### 📱 Mobile:
-![mobile preview](./mobile-preview.png)
+![image](https://github.com/user-attachments/assets/9fd142c5-4fd2-42c2-8b1d-b8a36a38aba6)
 
 ---
 
