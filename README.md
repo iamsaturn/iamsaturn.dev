@@ -39,10 +39,10 @@ O mini game está disponível na segunda página do site. O objetivo é:
 O site foi desenvolvido com atenção à responsividade. A interface se adapta a diferentes tamanhos de tela, mantendo a estética etérea e funcional.
 
 ### 💻 Desktop:
-![desktop preview](./preview/desktop-preview.png)
+![desktop preview](./desktop-preview.png)
 
 ### 📱 Mobile:
-![mobile preview](./preview/mobile-preview.png)
+![mobile preview](./mobile-preview.png)
 
 ---
 
