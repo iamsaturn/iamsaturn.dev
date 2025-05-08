@@ -30,7 +30,7 @@ O mini game está disponível na segunda página do site. O objetivo é:
 🔗 Acesso pelo botão `Game` na tela inicial.
 
 📸 Preview:
-![game](./preview/game-preview.gif)
+![preview-game gifFeitocomoClipchamp-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/423b97ee-2c48-47c4-84be-e3da17198278)
 
 ---
 
